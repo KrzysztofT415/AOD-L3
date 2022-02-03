@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/krzysiek/files/sem5/aod/AOD-L3'
+rm -f dijkstra dial radixheap test
+g++ -O3 -Wall -Wextra -std=c++17 -pedantic ./app/dijkstra.cpp ./src/*.cpp -I./lib -I./inc -o dijkstra
+g++ -O3 -Wall -Wextra -std=c++17 -pedantic ./app/dial.cpp ./src/*.cpp -I./lib -I./inc -o dial
+g++ -O3 -Wall -Wextra -std=c++17 -pedantic ./app/radixheap.cpp ./src/*.cpp -I./lib -I./inc -o radixheap
+make: Leaving directory '/home/krzysiek/files/sem5/aod/AOD-L3'
+ 
